@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">This is the page that <b>{{$ctrl.profile.name}}</b> will see when they log in.</div>
+  </div>
+
+  <hr />
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2>My Games</h2>
+      <ul>
+        <li>My First Game</li>
+        <li>Game Number Two</li>
+      </ul>
+      Click to open releases, buttons to edit, etc
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <div class="col-md-12">
+      <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newGameModal">
+    Create New Game
+  </button>
+    </div>
+  </div>
+  <new-game-form></new-game-form>
+
+  <!--
+<div class="row">
+  <div class="col-md-12">
+    <label>* Add contributor</label>
+    <label>* Add release</label>
+    <label>* Add tags</label>
+    <label>* Add resources to releases</label>
+  </div>
+</div>
+-->
+</div>
