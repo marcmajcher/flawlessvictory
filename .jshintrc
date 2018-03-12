@@ -1,0 +1,25 @@
+{
+  "globals": {
+    "angular": false
+  },
+  "esversion": 6,
+  "node": true,
+  "jquery": true,
+  "mocha": true,
+  "browser": true,
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "funcscope": true,
+  "maxcomplexity": 5,
+  "maxdepth": 3,
+  "maxparams": 5,
+  "maxstatements": 20,
+  "nonbsp": true,
+  "notypeof": true,
+  "shadow": true,
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "validthis": true
+}
