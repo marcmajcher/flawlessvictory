@@ -6,7 +6,7 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
 const GoogleAuth = require('google-auth-library');
-const CLIENT_ID = '1079233913624-v8h0hnrrbkalbhf5upetcluuepvt26og.apps.googleusercontent.com';
+const CLIENT_ID = '187062107773-3e4lv97ak3sn67qlg3ua9pbhl3hquhg4.apps.googleusercontent.com';
 
 /* Log user in with Google sign-in */
 router.post('/gsignin', (req, res, next) => {
