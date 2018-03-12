@@ -3,6 +3,15 @@
 
 ## Next
 
+* Convert everything from ashcan to flawless festival
+* Better mockups for what the hell this is
+
+* Create user view after login
+* Update user database and model
+* Create game migration and model
+* Create release migration and model
+* Create playtest migration and model
+
 * Display list of users games on account page
 
 ## Upcoming
@@ -33,9 +42,3 @@
 * Google signin button flash when load and already logged in
 
 ## Done
-
-* Create user view after login
-* Update user database and model
-* Create game migration and model
-* Create release migration and model
-* Create playtest migration and model
