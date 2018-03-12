@@ -12,7 +12,7 @@
   }
   HeaderController.$inject = ['GapiService'];
 
-  angular.module('ashcan').component('ashHeader', {
+  angular.module('flawless').component('ffvHeader', {
     controller: HeaderController,
     templateUrl: '/tmpl/header.html'
   });

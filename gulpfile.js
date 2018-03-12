@@ -78,7 +78,7 @@ gulp.task('nodemon', () => nodemon({
 
 gulp.task('sass', () =>
   gulp
-  .src('src/scss/style.scss')
+  .src('src/scss/*.scss')
   .pipe(sourcemaps.init())
   .pipe(sass({
     outputStyle: 'compressed'

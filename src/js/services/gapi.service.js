@@ -82,5 +82,5 @@
 
   gapiService.$inject = ['$rootScope', '$http'];
 
-  angular.module('ashcan').service('GapiService', gapiService);
+  angular.module('flawless').service('GapiService', gapiService);
 })();

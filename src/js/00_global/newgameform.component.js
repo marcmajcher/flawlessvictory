@@ -36,7 +36,7 @@
 
   NewGameFormController.$inject = ['ProjectService'];
 
-  angular.module('ashcan').component('newGameForm', {
+  angular.module('flawless').component('newGameForm', {
     controller: NewGameFormController,
     templateUrl: '/tmpl/newgameform.html'
   });

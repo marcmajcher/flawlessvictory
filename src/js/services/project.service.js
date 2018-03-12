@@ -15,5 +15,5 @@
 
   ProjectService.$inject = ['$http'];
 
-  angular.module('ashcan').service('ProjectService', ProjectService);
+  angular.module('flawless').service('ProjectService', ProjectService);
 })();

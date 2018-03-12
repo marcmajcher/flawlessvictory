@@ -11,7 +11,7 @@
     };
   }
 
-  angular.module('ashcan').component('home', {
+  angular.module('flawless').component('home', {
     controller: HomeController,
     templateUrl: '/tmpl/home.html'
   });

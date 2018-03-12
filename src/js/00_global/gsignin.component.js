@@ -25,7 +25,7 @@
   }
   GsigninController.$inject = ['GapiService', '$window', '$state'];
 
-  angular.module('ashcan').component('gsignin', {
+  angular.module('flawless').component('gsignin', {
     controller: GsigninController,
     templateUrl: '/tmpl/gsignin.html'
   });

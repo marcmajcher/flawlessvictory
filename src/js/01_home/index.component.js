@@ -11,7 +11,7 @@
     };
   }
 
-  angular.module('ashcan').component('index', {
+  angular.module('flawless').component('index', {
     controller: IndexController,
     templateUrl: '/tmpl/index.html'
   });
