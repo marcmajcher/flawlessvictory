@@ -1,0 +1,97 @@
+<!-- Modal -->
+<div class="modal fade" id="newGameModal" tabindex="-1" role="dialog" aria-labelledby="newGameModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+           <span aria-hidden="true">&times;</span>
+           <span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title">
+            Create New Game
+        </h4>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-xs-12">
+            <form method="post" role="form">
+              <div class="form-group ">
+                <label class="control-label requiredField" for="title">
+             Title
+             <span class="asteriskField">
+              *
+             </span>
+            </label>
+                <input class="form-control" ng-model="$ctrl.game.title" id="title" name="title" placeholder="My Sweet Game" type="text" required />
+                <span class="help-block" id="hint_title">
+             Enter the title of your game - should be descriptive and unique.
+            </span>
+              </div>
+              <div class="form-group ">
+                <label class="control-label requiredField" for="pitch">
+             Pitch
+             <span class="asteriskField">
+              *
+             </span>
+            </label>
+                <input class="form-control" ng-model="$ctrl.game.pitch" id="pitch" name="pitch" placeholder="A game about stuff!" type="text" required />
+                <span class="help-block" id="hint_pitch">
+             Short description of your game, to get people interested.
+            </span>
+              </div>
+              <div class="form-group ">
+                <label class="control-label requiredField" for="description">
+             Description
+             <span class="asteriskField">
+              *
+             </span>
+            </label>
+                <textarea class="form-control" ng-model="$ctrl.game.description" cols="40" id="description" name="description" rows="10" required></textarea>
+                <span class="help-block" id="hint_description">
+             A fuller description of your game, for those who want to learn more about it.
+            </span>
+              </div>
+              <div class="form-group ">
+                <label class="control-label " for="minplayers">
+             Minimum number of players
+            </label>
+                <input class="form-control" ng-model="$ctrl.game.minplayers" id="minplayers" name="minplayers" placeholder="1" type="number" />
+              </div>
+              <div class="form-group ">
+                <label class="control-label " for="maxplayers">
+             Maximum number of players
+            </label>
+                <input class="form-control" ng-model="$ctrl.game.maxplayers" id="maxplayers" name="maxplayers" placeholder="99" type="number" />
+              </div>
+              <div class="form-group ">
+                <label class="control-label " for="playtime">
+             Time to play (in minutes)
+            </label>
+                <input class="form-control" ng-model="$ctrl.game.playtime" id="playtime" name="playtime" placeholder="60" type="number" />
+              </div>
+              <div class="form-group">
+                <label class="control-label " for="tags">
+             Tags (separated by commas)
+            </label>
+                <input class="form-control" ng-model="$ctrl.game.tags" id="tags" name="tags" type="text" data-role="tagsinput" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">
+            Cancel
+        </button>
+        <button type="button" class="btn btn-primary" ng-click="$ctrl.createGame()">
+            Create Game
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
