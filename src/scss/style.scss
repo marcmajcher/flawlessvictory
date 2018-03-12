@@ -1,18 +1,46 @@
+@font-face {
+  font-family: 'MK TITLE';
+  src: url("/font/MortalKombat-Regular.woff2") format('woff2'), url("/font/MortalKombat-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font: 14px Helvetica, Arial, sans-serif;
-  margin-top: 100px;
+  margin-top: 12em;
+}
+
+header {
+  text-align: center;
+  height: 10em;
+}
+
+h1 {
+  font-family: 'MK TITLE';
+  font-size: 6em;
 }
 
 .navbar {
-  border-bottom: 2px solid #333;
+  // border-bottom: 2px solid #333;
 }
 
+.g-signedin,
 .g-signin2 {
-  margin-top: 5px;
+  position: absolute;
+  right: 1em;
 }
 
 .profile-image {
   height: 32px;
   width: 32px;
   margin-right: 14px;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+.fire {
+  color: black;
+  text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
 }
