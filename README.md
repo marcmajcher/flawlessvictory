@@ -8,7 +8,7 @@ Ultimately, SabreGreatWolf, Fey Wray, Powell Driver, D. Vincent, The Kenrick Man
 
 Now... the fighters have been recalled to the arena. The deathmatch for the fate of two worlds -- the real world and the corrupted world of imagination -- is at hand! Who will you fight? How will you write your name on the eternal role of champions?
 
-The Eternal Rules of the Eternal Festival
+## The Eternal Rules of the Eternal Festival
 
 Games are easy to start, but sometimes hard to finish. They are the like the green vegetables of the mind.
 
